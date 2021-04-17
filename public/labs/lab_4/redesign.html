@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Speaker Submission</title>
+    <link rel='stylesheet' href='styles.css'/>
+  </head>
+  <body>
+    <div class="container">
+        <form action="/api" method="GET">
+          <ul class="flex-outer">
+            <h1>College Room Redesign</h1>
+            <li>
+              <label for="phone">Budget</label>
+              <input type="tel" id="phone" placeholder="Enter your phone here">
+            </li>
+            <li>
+              <label for="message">Message</label>
+              <textarea rows="6" id="message" placeholder="Enter your message here"></textarea>
+            </li>
+            <li>
+              <ul class="flex-inner">
+                <p>Furniture Preferences</p>
+                <li>
+                  <input type="checkbox" id="twenty-to-twentynine">
+                  <label for="twenty-to-twentynine">Chairs</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="thirty-to-thirtynine">
+                  <label for="thirty-to-thirtynine">Table</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="fourty-to-fourtynine">
+                  <label for="fourty-to-fourtynine">Sofas</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="fifty-to-fiftynine">
+                  <label for="fifty-to-fiftynine">Rugs</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="sixty-to-sixtynine">
+                  <label for="sixty-to-sixtynine">BEds</label>
+                </li>
+              </ul>
+              <ul class="flex-inner">
+                <p>Color Preferences</p>
+                <li>
+                  <input type="checkbox" id="twenty-to-twentynine">
+                  <label for="twenty-to-twentynine">Light colors</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="thirty-to-thirtynine">
+                  <label for="thirty-to-thirtynine">browns and beiges</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="fourty-to-fourtynine">
+                  <label for="fourty-to-fourtynine">dark colors</label>
+                </li>
+
+              </ul>
+            </li>
+            <li>
+              <button type="submit">Save Preferences</button>
+              <a href="preferences.html">next</a>
+            </li>
+          </ul>
+        </form>
+      </div>
+  </body>
+</html>
