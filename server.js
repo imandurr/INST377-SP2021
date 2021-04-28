@@ -46,13 +46,14 @@ app.route('/api')
     console.log('POST request detected');
     console.log('Form data in res.body', req.body);
     console.log('Now send something back to your client');
+    res.send('<p>hello world!</p>')
     const data = await fetch('https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json');
     const json = await data.json();
 
     fetch('https://data.princegeorgescountymd.gov/resource/umjn-t2iz.json')
       .then((data) => data.json())
       .then((data2) => {
-        // do something with your data!
+        //something 
       })
       .catch((err) => console.error(err));
 
